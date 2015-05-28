@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<!DOCTYPE hook PUBLIC "-//Liferay//DTD Hook 6.2.0//EN" "http://www.liferay.com/dtd/liferay-hook_6_2_0.dtd">
+
+<hook>
+	<indexer-post-processor>
+		<indexer-class-name>com.liferay.portlet.messageboards.model.MBMessage</indexer-class-name>
+		<indexer-post-processor-impl>com.liferay.hook.indexer.MBMessageIndexerPostProcessor</indexer-post-processor-impl>
+	</indexer-post-processor>
+	<indexer-post-processor>
+		<indexer-class-name>com.liferay.portlet.blogs.model.BlogsEntry</indexer-class-name>
+		<indexer-post-processor-impl>com.liferay.hook.indexer.BlogsIndexerPostProcessor</indexer-post-processor-impl>
+	</indexer-post-processor>
+	<indexer-post-processor>
+		<indexer-class-name>com.liferay.portlet.wiki.model.WikiPage</indexer-class-name>
+		<indexer-post-processor-impl>com.liferay.hook.indexer.WikiPageIndexerPostProcessor</indexer-post-processor-impl>
+	</indexer-post-processor>
+	<indexer-post-processor>
+		<indexer-class-name>com.liferay.portlet.bookmarks.model.BookmarksEntry</indexer-class-name>
+		<indexer-post-processor-impl>com.liferay.hook.indexer.BookmarksEntryIndexerPostProcessor</indexer-post-processor-impl>
+	</indexer-post-processor>
+	<indexer-post-processor>
+		<indexer-class-name>com.liferay.portlet.bookmarks.model.BookmarksFolder</indexer-class-name>
+		<indexer-post-processor-impl>com.liferay.hook.indexer.BookmarksFolderIndexerPostProcessor</indexer-post-processor-impl>
+	</indexer-post-processor>
+	<indexer-post-processor>
+		<indexer-class-name>com.liferay.portal.model.Contact</indexer-class-name>
+		<indexer-post-processor-impl>com.liferay.hook.indexer.ContactIndexerPostProcessor</indexer-post-processor-impl>
+	</indexer-post-processor>
+	<indexer-post-processor>
+		<indexer-class-name>com.liferay.portal.model.Organization</indexer-class-name>
+		<indexer-post-processor-impl>com.liferay.hook.indexer.OrganizationIndexerPostProcessor</indexer-post-processor-impl>
+	</indexer-post-processor>
+	<indexer-post-processor>
+		<indexer-class-name>com.liferay.portal.model.UserGroup</indexer-class-name>
+		<indexer-post-processor-impl>com.liferay.hook.indexer.UserGroupIndexerPostProcessor</indexer-post-processor-impl>
+	</indexer-post-processor>
+</hook>
