@@ -15,7 +15,7 @@ Because there are no localized index fields, the Search Portlet doesn't work wit
 
 LocalizedIndexerPostProcessor-hook is a way to create a fairly appropriate localized fields for languages available with Japanese, Korean, and Chinese characters and words. 
 
-Also Liferay 6.2 uses Lucene 3.5 which uses CJKAnalyzer for Japanese / Chinese / Korean tokenizer. Unfortunately, this tokenizer doesn't really meet the quality of practical use and it's not well maintained and configurable. I strongly recommend to use external search engines such as Solr for Japanese.
+Also Liferay 6.2 uses Lucene 3.5 which uses CJKAnalyzer for Japanese / Chinese / Korean tokenizer. Unfortunately, this tokenizer doesn't really meet the quality of practical use and it's not easily configurable. I strongly recommend to use external search engines such as Solr for Japanese.
 
 In terms of using Solr 4, Liferay provides Solr 4 plugin to integrate Solr and Liferay easily.  Liferay 6.2 officially supports 4.3.1 and higher.
 
