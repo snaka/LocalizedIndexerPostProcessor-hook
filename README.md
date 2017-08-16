@@ -1,7 +1,7 @@
-#LocalizedIndexerPostProcessor-hook
+# LocalizedIndexerPostProcessor-hook
 LocalizedIndexerPostProcessor-hookis a PoC (Proof of a Concept) for adding localized indexes for Liferay6.2 + Solr 4.3.1 (or higher version) + Solr4 plugin combination.  
 
-##Summary
+## Summary
 In Liferay 6.2, Web Content have dedicated index fields for each language, however the following portlets do not have localized index fields.
 - Messageboard,
 - Blogs
@@ -19,7 +19,7 @@ Also Liferay 6.2 uses Lucene 3.5 which uses CJKAnalyzer for Japanese / Chinese /
 
 In terms of using Solr 4, Liferay provides Solr 4 plugin to integrate Solr and Liferay easily.  Liferay 6.2 officially supports 4.3.1 and higher.
 
-##How to install
+## How to install
 The steps to install Solr4 plugin and integrate Solr and Liferay (assuming you've already installed reqired Java Runtime, Java SDK, e.g.)
 
 -  Start Liferay 6.2 server
